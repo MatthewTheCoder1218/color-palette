@@ -17,7 +17,7 @@ const App = () => {
 
     try {
       const response = await axios.post(
-        "https://color-palette-b3mg.onrender.com/generate",
+        "https://color-palette-zozx.onrender.com/generate",
         {
           prompt,
         }
