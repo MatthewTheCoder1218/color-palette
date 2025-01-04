@@ -94,3 +94,23 @@
   border-radius: 10px;
   color: white;
 }
+
+@media (max-width: 620px) {
+  .box,
+  .box3 {
+    display: none;
+  }
+
+  .box2,
+  .box4 {
+    font-size: 0.7rem;
+  }
+
+  .body input {
+    width: 280px;
+  }
+
+  .body button {
+    width: 120px;
+  }
+}

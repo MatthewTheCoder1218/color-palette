@@ -88,7 +88,7 @@ const App = () => {
 
         {colors && colors.length > 0 && (
           <p>
-            Generated {colors.length} colors: {colors.join(", ")}
+            {colors.length} colors: {colors.join(", ")}
           </p>
         )}
       </div>
