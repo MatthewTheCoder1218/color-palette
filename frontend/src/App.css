@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Urbanist:wght@500&display=swap");
+
+* {
+  font-family: "Urbanist", sans-serif;
+}
+
+.logo {
+  font-size: 1.5rem;
+  margin-bottom: 32px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+  position: relative;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.body input {
+  height: 40px;
+  width: 400px;
+  padding-inline: 10px;
+  border-radius: 10px;
+  border: 1px solid grey;
+  outline: none;
+}
+
+.body button {
+  margin-left: 15px;
+  height: 40px;
+  width: 140px;
+  outline: none;
+  border: none;
+  background: #3498db;
+  color: white;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.body form {
+  margin-bottom: 30px;
+}
+
+.container img {
+  width: 300px;
+}
+
+.box {
+  position: absolute;
+  top: 10%;
+  left: 20px;
+  background: #8586ab;
+  padding: 15px;
+  border-radius: 10px;
+  transform: rotate(20deg);
+  color: white;
+}
+
+.box2 {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: #e04e53;
+  padding: 15px;
+  border-radius: 10px;
+  transform: rotate(-10deg);
+  color: white;
+}
+
+.box3 {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background: #2c7873;
+  padding: 15px;
+  border-radius: 10px;
+  color: white;
+}
+
+.box4 {
+  position: absolute;
+  bottom: 10px;
+  left: 20px;
+  background: #c39a3f;
+  padding: 15px;
+  border-radius: 10px;
+  color: white;
+}
