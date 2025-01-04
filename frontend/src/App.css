@@ -111,7 +111,8 @@
   }
 
   .body button {
-    width: 100px;
+    width: 70px;
     margin-left: 5px;
+    font-size: 0.7rem;
   }
 }
