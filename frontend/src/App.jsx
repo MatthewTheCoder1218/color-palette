@@ -16,9 +16,12 @@ const App = () => {
     setError(null);
 
     try {
-      const response = await axios.post("http://localhost:5000/generate", {
-        prompt,
-      });
+      const response = await axios.post(
+        "https://color-palette-b3mg.onrender.com/generate",
+        {
+          prompt,
+        }
+      );
       setColors(response.data); // Directly set the palette from response.data
     } catch (err) {
       console.error("Error generating palette:", err);
