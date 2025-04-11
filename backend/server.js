@@ -49,7 +49,12 @@ function extractHexCodes(text) {
   return hexCodes;
 }
 
-app.use(cors());
+app.use(
+  cors({
+    origin: "https://lp-color-palette.vercel.app",
+    methods: ["GET", "POST", "PUT", "PATCH", "DELETE"],
+  })
+);
 app.use(express.json());
 
 app.post("/generate", async (req, res) => {
